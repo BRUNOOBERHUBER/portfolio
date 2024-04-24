@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <style>
+        body {
+            background-image: url('img/fundos/Contato.png');
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            background-position: 0 -100px;
+        }
+        .menu-btn {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px 20px;
+            border-radius: 15px;
+            background-color: #3f86f0;
+            color: white;
+            text-decoration: none;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .menu-btn:hover {
+            background-color: #2d598f;
+        }
+        .active-btn {
+            background-color: #8ec7e6;
+        }
+        .profile-pic {
+            position: absolute;
+            top: calc(100% + 110px);
+            left: 7%;
+            width: 630px;
+            height: auto;
+            border-radius: 7%;
+        }
+        .icon {
+            display: inline-block;
+            margin: 10px;
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <a href="inicio.html" class="menu-btn" style="left: 10%;">INÍCIO</a>
+    <a href="historia.html" class="menu-btn" style="left: 30%;">HISTÓRIA</a>
+    <a href="experiencia.html" class="menu-btn" style="left: 50%;">EXPERIÊNCIA</a>
+    <a href="curriculo.html" class="menu-btn" style="left: 70%;">CURRÍCULO</a>
+    <a href="contato.html" class="menu-btn active-btn" style="left: 90%;">CONTATO</a>
+    
+    <img src="img/foto-fim.JPEG" class="profile-pic" alt="Foto de Contato">
+    
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(50%, 700%);">
+        <a href="https://www.instagram.com/bruno_oberhuber/" target="_blank">
+            <img src="img/icone-IG.png" class="icon" alt="Instagram" style="margin-right: 20px;">
+        </a>
+        <a href="https://www.linkedin.com/in/bruno-oberhuber/" target="_blank">
+            <img src="img/icone-LINKEDIN.png" class="icon" alt="LinkedIn">
+        </a>
+    </div>
+</body>
+</html>
